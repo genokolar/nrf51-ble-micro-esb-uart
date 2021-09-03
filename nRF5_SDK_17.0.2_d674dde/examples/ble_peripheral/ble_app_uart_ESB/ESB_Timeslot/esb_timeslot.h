@@ -39,7 +39,7 @@ void configure_next_event_normal(void);
 
 /**@brief Timeslot signal handler
  */
-void nrf_evt_signal_handler(uint32_t evt_id);
+void nrf_evt_signal_handler(uint32_t evt_id, void* p_context);
 
 
 /**@brief Timeslot event handler
